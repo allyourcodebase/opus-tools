@@ -1,0 +1,15 @@
+.{
+    .name = "opus-tools",
+    .version = "0.0.0",
+    .dependencies = .{
+        .@"xiph-opus-tools" = .{
+            .url = "git+https://github.com/xiph/opus-tools#98f3ddc8e94b8be31ebdeac52805a93cfab395e7",
+            .hash = "12205fa2e827132dad315e631ed8ff97fe7ba39e78ef7f6c278ca1f83ecb9f6d7b83",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "include",
+    },
+}
